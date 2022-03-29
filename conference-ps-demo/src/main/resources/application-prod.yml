@@ -1,0 +1,6 @@
+server:
+  port: 8000
+
+app:
+  version: 1.0.0
+  buildNo: 29032022
