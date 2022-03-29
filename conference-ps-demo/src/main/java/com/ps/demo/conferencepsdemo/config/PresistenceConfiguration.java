@@ -9,20 +9,20 @@ import javax.sql.DataSource;
 
 @Configuration
 public class PresistenceConfiguration {
-    @Value("${db_url}")
-    private String url;
-
-    @Value("${username}")
-    private String username;
-
-    @Value("${password}")
-    private String password;
-    @Bean
-    public DataSource dataSource() {
-        DataSourceBuilder builder = DataSourceBuilder.create();
-        builder.url(url);
-        builder.username(username);
-        builder.password(password);
-        return builder.build();
-    }
+//    @Value("${db_url}")
+//    private String url;
+//
+//    @Value("${username}")
+//    private String username;
+//
+//    @Value("${password}")
+//    private String password;
+//    @Bean
+//    public DataSource dataSource() {
+//        DataSourceBuilder builder = DataSourceBuilder.create();
+//        builder.url(url);
+//        builder.username(username);
+//        builder.password(password);
+//        return builder.build();
+//    }
 }
